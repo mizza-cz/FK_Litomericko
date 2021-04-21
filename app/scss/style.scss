@@ -71,14 +71,6 @@
       margin-bottom: 9px;
     }
   }
-  .date {
-    display: block;
-    font-size: 0.75rem;
-    letter-spacing: 4px;
-    line-height: 1;
-    opacity: 0.5;
-    color: #fff;
-  }
 }
 
 //// topstory HP end
@@ -159,4 +151,85 @@
 .gameslider__btn--next {
   right: 25px;
 }
+
+/// clanky and videa section
+.clanky,
+.videa {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.clanky__inner {
+  display: flex;
+  margin-left: -32px;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 0 0 31%;
+  height: 100%;
+  margin-left: 32px;
+  position: relative;
+  text-align: left;
+  &:hover {
+    h4 {
+      text-decoration: underline;
+    }
+  }
+  &__text {
+    position: relative;
+    bottom: 60px;
+    width: auto;
+    left: 0;
+    right: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #fff;
+    padding: 16px;
+    .date {
+      color: #060813;
+      opacity: 1;
+      margin-top: 6px;
+    }
+  }
+  &__text-link {
+    color: $blue;
+  }
+  &__link {
+    height: 288px;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}
+.videa {
+  .item__link {
+    &::before {
+      content: '';
+      background-image: url('../images/svg/play.svg');
+      position: absolute;
+      top: 50%;
+      height: 48px;
+      width: 48px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateY(-110%);
+    }
+  }
+  .item__text {
+    background: $blue;
+    &-link {
+      color: #fff;
+    }
+    .date {
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+}
+//clanky and videa section end
 @import 'media';
