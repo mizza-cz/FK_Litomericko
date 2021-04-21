@@ -2,6 +2,9 @@ $(function () {
   $('.navbar__menu').on('click', function () {
     $('.navbar__inner').slideToggle();
   });
+  $('.nav__link').on('click', function () {
+    $(this).closest('.nav__item').toggleClass('active');
+  });
 });
 
 const menuBtn = document.querySelector('.navbar__menu');
