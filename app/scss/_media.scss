@@ -1,1 +1,93 @@
+@media (max-width: 1170px) {
+  .topArticle {
+    width: 25%;
+  }
+  .topArticleActive {
+    width: 50% !important;
+  }
+  .gameslider__btn--prev {
+    left: 10px;
+  }
+  .gameslider__btn--next {
+    right: 10px;
+  }
+  .gameslider__team {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 900px) {
+  .gameslider__inner {
+    padding: 32px 0px;
+  }
+  .topstory {
+    margin-bottom: 0;
+  }
+  .gameslider__item {
+    justify-content: space-between;
+  }
+  .topArticle,
+  .topArticleActive {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+  .hp-article__text {
+    h2 {
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+  }
+  #hpArticle {
+    padding-top: 25px;
+    flex-direction: column;
+  }
+}
 
+@media (max-width: 760px) {
+  .gameslider__content h4 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+  .gameslider__content h1 {
+    font-size: 3rem;
+  }
+  .gameslider__content h2 {
+    font-size: 1.7rem;
+  }
+  .gameslider__team {
+    width: 120px;
+    height: 120px;
+  }
+  .hp-article__text h2,
+  .topArticleActive .hp-article__text h2 {
+    font-size: 1.17rem;
+  }
+  .hp-article__img {
+    height: 400px;
+    img {
+      min-height: 100%;
+      height: auto;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .gameslider__item {
+    justify-content: center;
+  }
+  .gameslider__team {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .gameslider__content-info {
+    line-height: 1.4;
+  }
+  .hp-article__img {
+    height: 320px;
+  }
+  .hp-article__text {
+    bottom: 0;
+    margin: 0;
+  }
+}
