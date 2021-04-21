@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'OpenSans-Regular', sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: din-2014, sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.17;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 1.25;
+}
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+p {
+  font-size: 1.125rem;
+  line-height: 1.78;
+}
+
+a {
+  font-family: din-2014, sans-serif;
+  font-weight: 400;
+}
+body {
+  font-family: din-2014, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #060813;
+}
+
+.container {
+  max-width: 1390px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.btn {
+  display: block;
+  border: 2px solid $blue;
+  color: $blue;
+  line-height: 1.57;
+  font-size: 0.875rem;
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 700;
+  padding: 10px 16px 8px;
+  text-transform: uppercase;
+  transition: all 0.6s;
+  background-color: transparent;
+  &:hover {
+    background-color: rgba(40, 55, 130, 0.1);
+    text-decoration: underline;
+  }
+}
+
+// videa start ----------------
+
+/// videa end --------------
+
+/// clanek ---------------------
+
+// clanek end ------------------

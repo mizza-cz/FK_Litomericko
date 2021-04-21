@@ -1,0 +1,11 @@
+@import 'vars';
+@import 'global';
+@import 'fonts';
+@import 'header';
+
+.homepage {
+  height: 100vh;
+  background: linear-gradient(to top, #fff, #dde1e6 33%);
+}
+
+@import 'media';
