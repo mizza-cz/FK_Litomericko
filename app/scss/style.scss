@@ -424,10 +424,24 @@
     font-weight: 700;
   }
 }
+
 .hp-statistika__table {
   background-color: $blue;
   text-align: center;
   padding: 32px 16px 35px 16px;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -46px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 480px;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-image: url('../images/svg/combined-shape.svg');
+  }
   h6 {
     background-color: $yellow;
     color: $blue;
@@ -438,7 +452,6 @@
   }
   table {
     width: 100%;
-    height: 578px;
   }
   tr.litomericko td {
     color: $yellow;
