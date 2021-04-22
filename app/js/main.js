@@ -1,5 +1,10 @@
 $(function () {
   $('.navbar__menu').on('click', function () {
+    $('select').styler();
+    //presmerovani pomoci selectu
+    $('.select__redirect').change(function () {
+      location.href = $(this).val();
+    });
     $('.navbar__inner').slideToggle();
   });
   $('.nav__link').on('click', function () {
