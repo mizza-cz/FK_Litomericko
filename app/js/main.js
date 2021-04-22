@@ -13,7 +13,7 @@ $(function () {
       ' <button class="gameslider__btn gameslider__btn--next"><img src="images/svg/arrow-right.svg" alt = "" ></button > ',
     responsive: [
       {
-        breakpoint: 901,
+        breakpoint: 581,
         settings: {
           arrows: false,
         },
@@ -48,35 +48,35 @@ $(function () {
   });
   $('.partner-slider__inner').slick({
     slidesToShow: 8,
-    slidesToScroll: 8,
+    slidesToScroll: 1,
     autoplay: true,
     responsive: [
       {
         breakpoint: 1370,
         settings: {
           slidesToShow: 6,
-          slidesToScroll: 6,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 1170,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 841,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 561,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
     ],

@@ -301,4 +301,201 @@
   }
 }
 // partnersslider end
+
+// hp-statistika start
+.hp-statistika {
+  margin-bottom: 64px;
+
+  &__inner {
+    display: flex;
+    margin-left: -32px;
+  }
+  &__col {
+    flex: 0 50%;
+    padding-left: 32px;
+  }
+  &__players {
+    background-color: $blue;
+    padding-bottom: 59px;
+  }
+}
+.top__hrac {
+  p {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  &-link {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    padding-top: 32px;
+    display: block;
+    text-align: center;
+    margin-bottom: 33px;
+    h2 {
+      position: relative;
+      top: -24px;
+      background-color: $yellow;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      display: inline-block;
+      color: $blue;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      position: relative;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../images/content/bg-player.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.top__hrac-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3px;
+  margin-bottom: 21px;
+  li {
+    font-size: 3.5rem;
+    line-height: 1.14;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    span {
+      display: block;
+      background-color: $yellow;
+      width: 104px;
+      height: 24px;
+      font-size: 0.75rem;
+      color: $blue;
+      margin-top: 10px;
+      margin: 10px auto 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+  }
+}
+.hp-statistika__playes-table {
+  padding: 0 32px;
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td {
+    padding: 11px 11px 0 11px;
+    border-bottom: 1px solid rgba(#000, 0.25);
+  }
+  td,
+  td p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  td.name {
+    padding-left: 0;
+    a {
+      display: flex;
+      align-items: center;
+    }
+    img {
+      width: 55px;
+      height: 56px;
+      margin-right: 16px;
+      object-fit: contain;
+      display: block;
+    }
+  }
+  td.golu,
+  td.zapasy {
+    padding: 11px 0 0 3px;
+    text-align: center;
+    width: 10%;
+  }
+  td.golu {
+    font-weight: 700;
+  }
+}
+.hp-statistika__table {
+  background-color: $blue;
+  text-align: center;
+  padding: 32px 16px 35px 16px;
+  h6 {
+    background-color: $yellow;
+    color: $blue;
+    padding: 7px 12px 5px 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  table {
+    width: 100%;
+  }
+  tr.litomericko td {
+    color: $yellow;
+  }
+  td {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.75;
+    padding: 3px 0px;
+  }
+  td.tym {
+    background-repeat: no-repeat;
+    text-align-last: left;
+    font-weight: 700;
+  }
+  td.poradi {
+    padding: 3px 15px;
+    width: 30px;
+  }
+  td.body {
+    padding: 3px 7px 3px 7px;
+    width: 30px;
+    text-align: end;
+  }
+  td.logo {
+    padding: 3px 18px 3px 8px;
+    width: 40px;
+
+    img {
+      width: 28px;
+      height: 28px;
+      display: block;
+      object-fit: cover;
+    }
+  }
+  td.score {
+    width: 80px;
+    padding: 3px 31px 3px 31px;
+    text-align: center;
+  }
+  .btn {
+    color: $yellow;
+    border: 2px solid $yellow;
+    margin-top: 27px;
+    margin-left: 10px;
+  }
+}
+//hp-statistika end
 @import 'media';
