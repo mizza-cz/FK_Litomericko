@@ -440,6 +440,7 @@
     width: 480px;
     height: 560px;
     background-repeat: no-repeat;
+
     background-image: url('../images/svg/combined-shape.svg');
   }
   h6 {
@@ -527,7 +528,7 @@
   .date {
     color: #060813;
     opacity: 1;
-    margin: 10px 0 32px 0;
+    margin-bottom: 32px;
   }
   p {
     font-weight: 700;
@@ -545,4 +546,65 @@
   padding: 32px;
 }
 /// clanek-page end
+
+//soupiska-page start
+
+
+.soupiska__inner {
+  display: flex;
+  margin-left: -32px;
+  flex-wrap: wrap;
+}
+.soupiska__item {
+  margin-left: 32px;
+  margin-bottom: 68px;
+  flex: 0 0 30%;
+}
+.soupiska__link {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  padding-top: 32px;
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: contain;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/content/bg-player.jpg');
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.soupiska__info {
+  position: absolute;
+  background-color: #fff;
+  margin: 0 16px;
+  z-index: 2;
+  padding: 16px;
+  width: auto;
+  right: 0;
+  left: 0;
+  text-align: center;
+  top: 81%;
+  .date {
+    color: #060813;
+    margin-bottom: 3px;
+  }
+  .surname {
+    text-transform: uppercase;
+  }
+  h4 {
+    color: $blue;
+  }
+}
+//soupiska page end
 @import 'media';

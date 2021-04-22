@@ -15,6 +15,11 @@
     width: 12%;
   }
 }
+@media (max-width: 1310px) {
+  .main .aside {
+    display: none;
+  }
+}
 @media (max-width: 1240px) {
   .main.clanek-page .aside {
     display: none;
@@ -65,6 +70,11 @@
     flex: 100%;
   }
 }
+@media (max-width: 957px) {
+  .soupiska__item {
+    flex: 0 40%;
+  }
+}
 @media (max-width: 900px) {
   .gameslider__inner {
     padding: 32px 0px;
@@ -105,6 +115,9 @@
   }
 }
 @media (max-width: 800px) {
+  .soupiska__item {
+    flex: 0 45%;
+  }
   .clanek__wrapper {
     padding: 16px;
   }
@@ -185,6 +198,15 @@
     width: 13%;
   }
 }
+@media (max-width: 660px) {
+  .soupiska__inner {
+    margin-left: -16px;
+  }
+  .soupiska__item {
+    margin-left: 16px;
+    flex: 0 47%;
+  }
+}
 @media (max-width: 600px) {
   .top__hrac-list {
     flex-wrap: wrap;
@@ -214,6 +236,15 @@
   }
 }
 
+@media (max-width: 550px) {
+  .soupiska__inner {
+    margin-left: 0;
+  }
+  .soupiska__item {
+    flex: 100%;
+    margin-left: 0;
+  }
+}
 @media (max-width: 540px) {
   .hp-statistika__table {
     &::before {
@@ -271,8 +302,6 @@
     width: 100%;
   }
   .hp-statistika__table-scroll {
-    overflow-x: auto;
-    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     table {
       -webkit-overflow-scrolling: touch;
