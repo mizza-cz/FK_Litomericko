@@ -266,8 +266,7 @@
     width: 100%;
   }
   .hp-statistika__table-scroll {
-    overflow-x: auto;
-
+    overflow: touch;
     height: 578px;
     table {
       width: 450px;
