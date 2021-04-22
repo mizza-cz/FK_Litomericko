@@ -223,6 +223,7 @@
   }
   .hp-statistika__table-scroll {
     overflow: auto;
+    overflow-y: scroll;
     table {
       width: 450px;
     }
