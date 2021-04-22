@@ -8,18 +8,9 @@
 .topstory {
   position: relative;
   margin-bottom: 64px;
-  &::before {
-    content: '';
-    position: absolute;
-    height: 400px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to top, #fff, #dde1e6 33%);
-  }
+
 }
 #hpArticle {
-  padding-top: 60px;
   display: flex;
 }
 .topArticle {
