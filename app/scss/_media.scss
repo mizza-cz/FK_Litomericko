@@ -16,19 +16,22 @@
   }
 }
 @media (max-width: 1310px) {
-  .main .aside {
-    display: none;
-  }
-}
-@media (max-width: 1240px) {
-  .main.clanek-page .aside {
-    display: none;
-  }
-
   .clanek__img {
     height: auto;
   }
+  .main .aside {
+    display: none;
+  }
+  .main .aside {
+    display: none;
+  }
+  .main.hrac-page {
+    .main__wrapper {
+      margin: 0 32px;
+    }
+  }
 }
+
 @media (max-width: 1170px) {
   .partner-slider__link:first-child {
     margin-left: 0;
@@ -76,6 +79,11 @@
   }
 }
 @media (max-width: 900px) {
+  .main.hrac-page {
+    .main__wrapper {
+      margin: 0px;
+    }
+  }
   .zapasy__result {
     margin: 10px auto 0;
   }
@@ -126,6 +134,13 @@
   }
 }
 @media (max-width: 800px) {
+  .hrac__img {
+    width: 100%;
+    height: 420px;
+  }
+  .hrac {
+    flex-direction: column;
+  }
   .archiv__link {
     flex-direction: column;
   }
@@ -228,6 +243,9 @@
   }
 }
 @media (max-width: 600px) {
+  .hrac__img {
+    height: 320px;
+  }
   .zapasy__result {
     font-size: 2.3rem;
   }
@@ -306,8 +324,6 @@
     margin: 0;
   }
 }
-@media (max-width: 500px) {
-}
 
 @media (max-width: 480px) {
   .clanek__img {
@@ -330,7 +346,9 @@
     padding-left: 0;
     width: 100%;
   }
-  .hp-statistika__table-scroll {
+  .hp-statistika__table-scroll,
+  .hrac__table {
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     table {
       -webkit-overflow-scrolling: touch;
