@@ -15,6 +15,15 @@
     width: 12%;
   }
 }
+@media (max-width: 1240px) {
+  .main.clanek-page .aside {
+    display: none;
+  }
+
+  .clanek__img {
+    height: auto;
+  }
+}
 @media (max-width: 1170px) {
   .partner-slider__link:first-child {
     margin-left: 0;
@@ -96,6 +105,9 @@
   }
 }
 @media (max-width: 800px) {
+  .clanek__wrapper {
+    padding: 16px;
+  }
   .result-slider__inner {
     button {
       display: none !important;
@@ -153,6 +165,21 @@
   }
 }
 @media (max-width: 680px) {
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  .clanek__wrapper {
+    margin: 0;
+  }
+  .clanek__img {
+    margin-bottom: 0;
+  }
   .hp-statistika__playes-table td.golu,
   .hp-statistika__playes-table td.zapasy {
     width: 13%;
@@ -188,6 +215,9 @@
 }
 
 @media (max-width: 540px) {
+  h1 {
+    font-size: 2.2rem;
+  }
   .hp-statistika__playes-table td.name {
     width: 70%;
   }
@@ -215,6 +245,18 @@
 }
 
 @media (max-width: 480px) {
+  .clanek__img {
+    height: 340px;
+  }
+  .clanek__wrapper {
+    padding: 16px 0;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
   .hp-statistika__inner,
   .hp-statistika__table .btn {
     margin-left: 0;
@@ -224,7 +266,7 @@
     width: 100%;
   }
   .hp-statistika__table-scroll {
-    overflow: auto;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     table {
       width: 450px;

@@ -8,7 +8,6 @@
 .topstory {
   position: relative;
   margin-bottom: 64px;
-
 }
 #hpArticle {
   display: flex;
@@ -333,7 +332,6 @@
       text-transform: uppercase;
       padding: 4px 12px;
       display: inline-block;
-      color: $blue;
     }
 
     img {
@@ -490,4 +488,48 @@
   }
 }
 //hp-statistika end
+
+// clanek-page start
+.clanek {
+  &__img {
+    width: 100%;
+    height: 596px;
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}
+.clanek-page {
+  h2 {
+    margin-bottom: 16px;
+  }
+  p {
+    margin-bottom: 32px;
+  }
+}
+.clanek__top {
+  .date {
+    color: #060813;
+    opacity: 1;
+    margin: 10px 0 32px 0;
+  }
+  p {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+}
+.clanek__img {
+  margin-bottom: -64px;
+}
+.clanek__wrapper {
+  position: relative;
+  background-color: #fff;
+  margin: 0 32px;
+  padding: 32px;
+}
+/// clanek-page end
 @import 'media';

@@ -48,10 +48,12 @@ h1 {
   font-size: 3rem;
   line-height: 1.17;
   font-weight: 700;
+  color: $blue;
 }
 h2 {
   font-size: 2rem;
   line-height: 1.25;
+  color: $blue;
 }
 h4 {
   font-size: 1.5rem;
@@ -111,6 +113,7 @@ body {
   color: #fff;
 }
 
+/// main + aside
 main {
   position: relative;
   padding-top: 60px;
@@ -122,5 +125,37 @@ main {
     top: 0;
     left: 0;
     background: linear-gradient(to top, #fff, #dde1e6 33%);
+  }
+}
+
+.main__inner {
+  display: flex;
+}
+.main__wrapper {
+  width: 100%;
+  position: relative;
+}
+.aside {
+  margin-left: 32px;
+  position: relative;
+  .clanky__inner {
+    margin-left: 0;
+  }
+  .item {
+    margin-left: 0;
+    flex: 100%;
+  }
+  h6 {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: $blue;
+    color: #fff;
+    margin-bottom: 32px;
+  }
+}
+.main.clanek-page {
+  .aside {
+    max-width: 432px;
+    width: 100%;
   }
 }
