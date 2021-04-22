@@ -12,6 +12,22 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.bottom {
+  flex: 0 0 auto;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -169,6 +185,9 @@ main {
   li {
     border-bottom: 1px solid rgba($blue, 0.15);
     padding: 0 16px;
+    .active {
+      text-decoration: underline;
+    }
     &:first-child a {
       padding-top: 0;
     }
@@ -187,6 +206,7 @@ main {
       width: 13px;
       height: 12px;
     }
+
     &:hover {
       text-decoration: underline;
     }

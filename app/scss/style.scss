@@ -549,7 +549,6 @@
 
 //soupiska-page start
 
-
 .soupiska__inner {
   display: flex;
   margin-left: -32px;
@@ -607,4 +606,65 @@
   }
 }
 //soupiska page end
+
+//zapasy-page start
+
+.zapasy__logos {
+  display: flex;
+  padding-right: 7px;
+}
+.zapasy__item {
+  margin-bottom: 16px;
+}
+.zapasy__link {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba($blue, 0.15);
+}
+.zapasy__logo {
+  width: 56px;
+  height: 56px;
+  margin-right: 8px;
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+  }
+}
+.zapasy__info {
+  .date {
+    color: #060813;
+    opacity: 1;
+    margin: 2px 0 5px;
+  }
+}
+.zapasy__teams {
+  color: #060813;
+  line-height: 1.33;
+  font-size: 1.5rem;
+  h4 {
+    display: inline-block;
+  }
+  h4.LIT {
+    color: $blue;
+  }
+}
+.zapasy__result {
+  margin-left: auto;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.draw {
+  color: #878d96;
+}
+.lost {
+  color: #d91e28;
+}
+.win {
+  color: #089d9a;
+}
+//zapasy-pag end
 @import 'media';
