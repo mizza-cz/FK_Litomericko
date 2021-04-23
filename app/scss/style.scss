@@ -385,10 +385,6 @@
 .hp-statistika__playes-table {
   padding: 0 32px;
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
   td {
     padding: 11px 11px 0 11px;
     border-bottom: 1px solid rgba(#000, 0.25);
@@ -451,9 +447,6 @@
     text-transform: uppercase;
     margin-bottom: 24px;
   }
-  table {
-    width: 100%;
-  }
   tr.litomericko td {
     color: $yellow;
   }
@@ -499,6 +492,7 @@
     border: 2px solid $yellow;
     margin-top: 27px;
     margin-left: 10px;
+    position: relative;
   }
 }
 //hp-statistika end
@@ -793,8 +787,6 @@
 .hrac__table {
   margin-bottom: 32px;
   table {
-    width: 100%;
-    border-collapse: collapse;
     th,
     td {
       margin: 0;
@@ -817,7 +809,6 @@
     td {
       line-height: 1.78;
       font-size: 1.125rem;
-
       border-bottom: 1px solid rgba($blue, 0.15);
       padding: 8px;
     }
@@ -850,4 +841,34 @@
   }
 }
 // hrac-page end
+
+// partneri-page
+.partneri-page {
+  margin-bottom: 64px;
+  h6 {
+    text-transform: uppercase;
+  }
+}
+.partneri__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -32px;
+}
+.partneri__item {
+  flex: 0 0 29%;
+  height: 200px;
+  margin-left: 32px;
+  box-shadow: 0 6px 12px 0 rgba(#000, 0.15);
+  padding: 20px;
+  display: block;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 16px;
+  }
+}
 @import 'media';

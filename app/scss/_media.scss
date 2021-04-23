@@ -16,6 +16,9 @@
   }
 }
 @media (max-width: 1310px) {
+  .partneri__item {
+    flex: 0 0 30.1%;
+  }
   .clanek__img {
     height: auto;
   }
@@ -71,6 +74,11 @@
   }
   .hp-statistika__col {
     flex: 100%;
+  }
+}
+@media (max-width: 990px) {
+  .partneri__item {
+    flex: 0 0 29%;
   }
 }
 @media (max-width: 957px) {
@@ -172,6 +180,9 @@
 }
 
 @media (max-width: 760px) {
+  .partneri__item {
+    flex: 0 45%;
+  }
   .gameslider__content h4 {
     margin-top: 10px;
     font-size: 1.3rem;
@@ -242,6 +253,11 @@
     flex: 0 47%;
   }
 }
+@media (max-width: 640px) {
+  .partneri__item {
+    flex: 0 44%;
+  }
+}
 @media (max-width: 600px) {
   .hrac__img {
     height: 320px;
@@ -288,8 +304,31 @@
     flex: 100%;
     margin-left: 0;
   }
+  .table {
+    tr td:first-child {
+      width: 223px;
+    }
+    th {
+      text-align: center;
+    }
+    th:first-child,
+    tr td:first-child {
+      text-align: left;
+      padding-left: 8px;
+    }
+    td {
+    }
+  }
 }
 @media (max-width: 540px) {
+  .partneri__inner {
+    margin-left: 0;
+  }
+  .partneri__item {
+    flex: 100%;
+    max-width: 320px;
+    margin: 0 auto 32px;
+  }
   .archiv__img {
     height: 250px;
   }

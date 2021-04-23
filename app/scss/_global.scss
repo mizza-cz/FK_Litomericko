@@ -176,7 +176,9 @@ main {
     flex: 100%;
   }
 }
-.main.clanek-page {
+.main.clanek-page,
+.main.ralizacny-tym-page,
+.main.partneri-page {
   .aside {
     max-width: 432px;
   }
@@ -326,4 +328,26 @@ main {
       fill: #fff;
     }
   }
+}
+
+// table
+.table {
+  tr td:first-child {
+    font-weight: 700;
+  }
+  th:first-child,
+  tr td:first-child {
+    text-align: left;
+    padding-left: 8px;
+  }
+  td {
+    line-height: 1.78;
+    font-size: 1.125rem;
+    border-bottom: 1px solid rgba($blue, 0.15);
+    padding: 8px;
+  }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
