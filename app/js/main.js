@@ -4,6 +4,17 @@ $(function () {
   $('.select__redirect').change(function () {
     location.href = $(this).val();
   });
+  // tabs team
+  $('.mladez__inner .tab').on('click', function (event) {
+    var id = $(this).attr('data-id');
+    $('.mladez__inner').find('.mladez__content').removeClass('tab-active').hide();
+    $('.mladez__inner .tabs').find('.tab').removeClass('active');
+    $(this).addClass('active');
+    $('#' + id)
+      .addClass('tab-active')
+      .fadeIn();
+    return false;
+  });
   $('.navbar__menu').on('click', function () {
     $('.navbar__inner').slideToggle();
   });

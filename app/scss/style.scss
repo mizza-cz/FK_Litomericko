@@ -940,4 +940,122 @@
     }
   }
 }
+
+/// mladez
+.mladez__menu {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.mladez__list {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  a {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0 15px;
+    border-radius: 4px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+    transition: all 0.6s;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
+    &.active {
+      background-color: $blue;
+      color: #fff;
+      &:hover {
+        background-color: $blue;
+        color: #fff;
+      }
+    }
+    &:hover {
+      background-color: $blue;
+      color: #fff;
+    }
+  }
+  &.active a {
+    background-color: $blue;
+    color: #fff;
+  }
+}
+.mladez__inner {
+  margin-bottom: 64px;
+  display: block;
+  font-size: 1.25rem;
+
+  line-height: 20px;
+  align-items: center;
+
+  .mladez__tym {
+    margin: 0 5px;
+    color: $blue;
+    font-weight: 700;
+  }
+}
+.mladez__content {
+  display: none;
+}
+.mladez__content.tab-active {
+  display: block;
+}
+.tab {
+  margin-left: 15px;
+  display: inline-block;
+
+  &.active .tab__link {
+    text-decoration: none;
+  }
+}
+.tab__link {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 8px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.mladez__top {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+// statistiky
+.statistiky__table {
+  margin-bottom: 64px;
+  .name {
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+  }
+  th {
+    text-transform: uppercase;
+    color: #060813;
+    letter-spacing: 4px;
+    font-size: 0.75rem;
+  }
+  td {
+    width: 40px;
+    font-weight: 1.15rem;
+  }
+  th,
+  td {
+    border-bottom: 1px solid rgba(#000, 0.25);
+    text-align: center;
+    padding: 8px 12px;
+    &:last-child {
+      padding-right: 8px;
+    }
+    &:first-child {
+      padding-left: 8px;
+    }
+  }
+}
+
 @import 'media';

@@ -244,6 +244,12 @@
   }
 }
 @media (max-width: 700px) {
+  .statistiky__table {
+    overflow-x: auto;
+    table {
+      width: 680px;
+    }
+  }
   .archiv-page {
     .select__redirect,
     .search {
@@ -294,6 +300,12 @@
   }
 }
 @media (max-width: 600px) {
+  .tabs {
+    margin-left: -12px;
+  }
+  .mladez__tym {
+    display: none;
+  }
   .gallery__link {
     flex-direction: column;
   }
