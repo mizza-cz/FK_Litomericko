@@ -205,6 +205,7 @@ body {
   height: 100%;
 }
 .btn {
+  height: 40px;
   border: 2px solid $blue;
   color: $blue;
   font-size: 0.875rem;
@@ -329,6 +330,7 @@ main {
   margin-bottom: 32px;
   border-radius: 4px;
   border: none;
+  height: 40px;
 }
 .jq-selectbox__select-text {
   width: 100% !important;

@@ -118,6 +118,7 @@
   }
   h2,
   h6 {
+    display: block;
     background-color: $blue;
     padding: 4px 12px;
     color: #fff;
@@ -306,7 +307,7 @@
   }
   &__players {
     background-color: $blue;
-    padding-bottom: 59px;
+    padding-bottom: 22px;
   }
 }
 .top__hrac {
@@ -755,6 +756,7 @@
     p {
       line-height: 1.78;
       min-width: 112px;
+      margin-bottom: 3px;
     }
   }
   &__info {
