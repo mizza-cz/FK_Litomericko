@@ -876,7 +876,14 @@
 // tabulka -page
 
 .tabulka {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
+  &__list {
+    margin-bottom: 64px;
+    li {
+      font-size: 1.125rem;
+      line-height: 1.75;
+    }
+  }
   td {
     width: 40px;
   }
