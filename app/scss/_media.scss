@@ -141,7 +141,21 @@
     flex-direction: column;
   }
 }
+
 @media (max-width: 800px) {
+  .archiv-page {
+    .search {
+      height: 42px;
+      max-width: 316px;
+    }
+    .form {
+      flex-wrap: wrap;
+    }
+    .select__redirect {
+      margin-bottom: 32px;
+      max-width: 316px;
+    }
+  }
   .hrac__img {
     width: 100%;
     height: 420px;
@@ -223,6 +237,21 @@
     margin: 0 auto;
   }
 }
+@media (max-width: 700px) {
+  .archiv-page {
+    .select__redirect,
+    .search {
+      margin-bottom: 16px;
+    }
+    .form {
+      flex-direction: column;
+    }
+    .btn {
+      max-width: 316px;
+      width: 100%;
+    }
+  }
+}
 @media (max-width: 680px) {
   p {
     font-size: 1rem;
@@ -259,6 +288,14 @@
   }
 }
 @media (max-width: 600px) {
+  .gallery__link {
+    flex-direction: column;
+  }
+  .gallery__img {
+    max-width: 100%;
+    height: 240px;
+    margin-right: 0;
+  }
   .hrac__img {
     height: 320px;
   }
@@ -365,6 +402,13 @@
 }
 
 @media (max-width: 480px) {
+  .archiv-page {
+    .select__redirect,
+    .search,
+    .btn {
+      max-width: 100%;
+    }
+  }
   .clanek__img {
     height: 340px;
   }
@@ -428,7 +472,8 @@
 }
 
 @media (max-width: 460px) {
-  .archiv__img {
+  .archiv__img,
+  .gallery__img {
     height: 180px;
   }
   .top__hrac-list li {
