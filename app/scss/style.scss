@@ -420,7 +420,9 @@
     font-weight: 700;
   }
 }
-
+.hp-statistika__table-scroll {
+  position: relative;
+}
 .hp-statistika__table {
   background-color: $blue;
   text-align: center;
@@ -844,11 +846,9 @@
 // hrac-page end
 
 // partneri-page
-.partneri-page {
+.partneri-page,
+.gallery {
   margin-bottom: 64px;
-  h6 {
-    text-transform: uppercase;
-  }
 }
 .partneri__inner {
   display: flex;
@@ -870,6 +870,67 @@
     display: block;
     object-fit: contain;
     border-radius: 16px;
+  }
+}
+
+// tabulka -page
+
+.tabulka {
+  margin-bottom: 64px;
+  td {
+    width: 40px;
+  }
+  th,
+  td {
+    border-bottom: 1px solid rgba(#000, 0.25);
+    text-align: center;
+    padding: 8px 12px;
+    &:last-child {
+      padding-right: 8px;
+    }
+    &:first-child {
+      padding-left: 8px;
+    }
+  }
+  td.poradi,
+  td.logo,
+  td.team {
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    text-transform: uppercase;
+    color: #060813;
+    letter-spacing: 4px;
+    font-size: 0.75rem;
+  }
+  th.poradi,
+  td.poradi {
+    width: 30px;
+  }
+
+  th.team {
+    text-align: left;
+    width: 100%;
+  }
+  td.team {
+    background-repeat: no-repeat;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  tr.litomericko td {
+    color: $blue;
+  }
+  td.logo {
+    width: 40px;
+
+    img {
+      width: 28px;
+      height: 28px;
+      display: block;
+      object-fit: cover;
+    }
   }
 }
 @import 'media';
