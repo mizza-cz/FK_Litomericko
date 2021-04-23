@@ -424,6 +424,10 @@
   position: relative;
 }
 .hp-statistika__table {
+  th,
+  td {
+    border-bottom: none;
+  }
   background-color: $blue;
   text-align: center;
   padding: 32px 16px 35px 16px;

@@ -1,5 +1,8 @@
 $(function () {
-  $('select').styler();
+  $('button').click(function () {
+    $('input.radio').prop('checked', true).trigger('refresh');
+  });
+  $('select, input.radio, input.checkbox').styler();
   //presmerovani pomoci selectu
   $('.select__redirect').change(function () {
     location.href = $(this).val();
