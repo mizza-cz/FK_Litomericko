@@ -288,7 +288,7 @@ main {
 }
 .aside__menu {
   li {
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid #ccc8c8;
     padding: 0 16px;
     .active {
       text-decoration: underline;
@@ -447,7 +447,7 @@ main {
   td {
     line-height: 1.78;
     font-size: 1.125rem;
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid #ccc8c8;
     padding: 8px;
   }
 }

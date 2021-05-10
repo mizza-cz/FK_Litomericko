@@ -388,7 +388,7 @@
 
   td {
     padding: 11px 11px 0 11px;
-    border-bottom: 1px solid rgba(#000, 0.25);
+    border-bottom: 1px solid #ccc8c8;
   }
   td,
   td p {
@@ -623,7 +623,7 @@
   display: flex;
   align-items: center;
   padding-bottom: 16px;
-  border-bottom: 1px solid rgba($blue, 0.15);
+  border-bottom: 1px solid #ccc8c8;
 }
 .zapasy__logo {
   width: 56px;
@@ -713,7 +713,7 @@
     }
   }
   &__item {
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid #ccc8c8;
     padding-bottom: 5px;
     margin-bottom: 32px;
     &:hover {
@@ -818,7 +818,7 @@
     td {
       line-height: 1.78;
       font-size: 1.125rem;
-      border-bottom: 1px solid rgba($blue, 0.15);
+      border-bottom: 1px solid #ccc8c8;
       padding: 8px;
     }
   }
@@ -827,11 +827,11 @@
     line-height: 1;
     letter-spacing: 4px;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid #ccc8c8;
   }
 }
 .hrac__clanek {
-  border-bottom: 1px solid rgba($blue, 0.15);
+  border-bottom: 1px solid #ccc8c8;
   padding-bottom: 16px;
   margin-bottom: 16px;
   display: block;
@@ -896,7 +896,7 @@
   }
   th,
   td {
-    border-bottom: 1px solid rgba(#000, 0.25);
+    border-bottom: 1px solid #ccc8c8;
     text-align: center;
     padding: 8px 12px;
     &:last-child {
@@ -1053,7 +1053,7 @@
   }
   th,
   td {
-    border-bottom: 1px solid rgba(#000, 0.25);
+    border-bottom: 1px solid #ccc8c8;
     text-align: center;
     padding: 8px 12px;
     &:last-child {
@@ -1069,8 +1069,8 @@
 .reportaz {
   .gameslider__item {
     padding-top: 25px;
-    border-top: 1px solid rgba($blue, 0.15);
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-top: 1px solid #ccc8c8;
+    border-bottom: 1px solid #ccc8c8;
   }
   .gameslider__team {
     width: 100px;
@@ -1083,7 +1083,7 @@ h2 {
 .statsbox {
   padding: 15px;
   font-size: 1.125rem;
-  border-bottom: 2px solid rgba($blue, 0.15);
+  border-bottom: 2px solid #ccc8c8;
 
   h6 {
     background-color: #fff;
@@ -1100,7 +1100,7 @@ h2 {
 .vedeni-klubu {
   h2 {
     padding-bottom: 15px;
-    border-bottom: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid #ccc8c8;
     margin-bottom: 25px;
   }
 }
