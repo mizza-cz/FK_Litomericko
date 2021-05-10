@@ -87,6 +87,12 @@
   }
 }
 @media (max-width: 900px) {
+  .vedeni__row {
+    flex-wrap: wrap;
+  }
+  .vedeni__item {
+    width: 330px;
+  }
   .main.hrac-page {
     .main__wrapper {
       margin: 0px;
@@ -244,6 +250,10 @@
   }
 }
 @media (max-width: 700px) {
+  .vedeni__item {
+    width: 100%;
+    flex: 0 50%;
+  }
   .statistiky__table {
     overflow-x: auto;
     table {
@@ -376,6 +386,9 @@
   }
 }
 @media (max-width: 540px) {
+  .vedeni__item {
+    flex: 100%;
+  }
   .partneri__inner {
     margin-left: 0;
   }
