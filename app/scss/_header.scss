@@ -135,6 +135,7 @@
 .nav {
   width: 50%;
   display: flex;
+  align-items: center;
 
   &--left {
     justify-content: flex-end;
@@ -199,35 +200,8 @@
 }
 
 /// media
+
 @media (max-width: 1120px) {
-  .nav__item:last-child {
-    .dropdown-menu {
-      left: -30px;
-    }
-  }
-}
-@media (max-width: 1060px) {
-  .nav__item:last-child {
-    .dropdown-menu {
-      left: -50px;
-    }
-  }
-}
-@media (max-width: 1060px) {
-  .nav__item:last-child {
-    .dropdown-menu {
-      left: -80px;
-    }
-  }
-}
-@media (max-width: 960px) {
-  .nav__item:last-child {
-    .dropdown-menu {
-      left: -110px;
-    }
-  }
-}
-@media (max-width: 900px) {
   .nav__item:last-child {
     .dropdown-menu {
       left: 0;

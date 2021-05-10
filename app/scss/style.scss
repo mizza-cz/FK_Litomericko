@@ -862,6 +862,7 @@
   margin-left: -32px;
 }
 .partneri__item {
+  background-color: #fff;
   flex: 0 0 29%;
   height: 200px;
   margin-left: 32px;
@@ -1064,4 +1065,34 @@
   }
 }
 
+/// reportaz-page
+.reportaz {
+  .gameslider__item {
+    padding-top: 25px;
+    border-top: 1px solid rgba($blue, 0.15);
+    border-bottom: 1px solid rgba($blue, 0.15);
+  }
+  .gameslider__team {
+    width: 100px;
+    height: 100px;
+  }
+}
+h2 {
+  margin-top: 40px;
+}
+.statsbox {
+  padding: 15px;
+  font-size: 1.125rem;
+  border-bottom: 2px solid rgba($blue, 0.15);
+
+  h6 {
+    background-color: #fff;
+    color: $blue;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
 @import 'media';
