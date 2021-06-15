@@ -236,6 +236,17 @@
   justify-content: space-around;
   position: relative;
   padding: 32px;
+  .slick-list{
+    width: 100% !important;
+  }
+  .slick-slide{
+    width: 100% !important;
+  }
+  .slick-track{
+  
+    display: flex;
+    justify-content: space-around;
+  }
   &::before {
     content: '';
     position: absolute;

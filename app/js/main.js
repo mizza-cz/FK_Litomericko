@@ -3,7 +3,7 @@ $(function () {
   
   $('select, input.radio, input.checkbox').styler();
   //presmerovani pomoci selectu
- 
+  });
   // tabs team
   $('.mladez__inner .tab').on('click', function (event) {
     var id = $(this).attr('data-id');
